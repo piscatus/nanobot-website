@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Telling the browser that this is a dark themed website */
+:root {
+  color-scheme: only dark;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom selection color */
+::selection {
+  @apply bg-[#007bff] bg-opacity-40;
+}
+
+/* Scrollbar removed for dev */
+::-webkit-scrollbar {
+  @apply hidden;
+}
+
+body {
+  @apply bg-black text-white;
+}
