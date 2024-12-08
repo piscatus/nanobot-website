@@ -8,6 +8,6 @@ export const metadata: Metadata = {
 
 export default function Invite() {
   redirect(
-    "https://discord.com/oauth2/authorize?client_id=967844118715854908&permissions=8&scope=applications.commands%20bot"
+    "https://discord.com/oauth2/authorize?client_id=967844118715854908"
   );
 }
