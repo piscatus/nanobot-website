@@ -20,7 +20,7 @@ export default function Home() {
             </h1>
             <p className="text-gray md:text-lg">
               The Nano-Focused Multi-Purpose Discord Bot with everything you
-              need to use Nano efficently on your Discord Server.
+              need to use Nano efficiently on your Discord Server.
             </p>
             <div className="flex gap-2 h-10 text-black font-semibold md:h-11 md:text-lg">
               <LinkButton
