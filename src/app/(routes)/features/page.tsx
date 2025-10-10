@@ -109,7 +109,7 @@ export default function Features() {
                 .
               </h1>
               <p className="text-white text-opacity-70">
-                We don't need to convice you to use Nanobot, it will convice you
+                We don't need to convince you to use Nanobot, it will convince you
                 by itself.
               </p>
             </div>
