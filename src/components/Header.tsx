@@ -13,8 +13,6 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/features", label: "Features" },
   { href: "/about", label: "About" },
-  { href: "/support", label: "Support" },
-  { href: "/donate", label: "Donate" },
 ];
 
 type LogoProps = {

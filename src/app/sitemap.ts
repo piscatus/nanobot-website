@@ -16,13 +16,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${meta.domain}/about`,
       lastModified: new Date(),
     },
-    {
-      url: `${meta.domain}/support`,
-      lastModified: new Date(),
-    },
-    {
-      url: `${meta.domain}/donate`,
-      lastModified: new Date(),
-    },
   ];
 }

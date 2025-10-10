@@ -8,10 +8,11 @@ Due to my personal circumstances, I won't be able to finish this project, hence 
 
 The following pages are incomplete:
 
-- /about
-- /support
-- /donate
-- /[404]
+- /about - Finished by tanos
+- /[404] - Finished by tanos
+
+~~- /support~~
+~~- /donate~~ - Not needed
 
 ## Getting Started
 

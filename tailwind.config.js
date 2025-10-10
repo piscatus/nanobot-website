@@ -12,7 +12,7 @@ module.exports = {
         secondary: "#ff90c6",
         tertiary: "#c6ff90",
         white: "#EDEDED",
-        black: "#151417",
+        black: "#000000ff",
         gray: "#A1A1A1",
       },
       keyframes: {

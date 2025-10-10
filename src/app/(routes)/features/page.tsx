@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 
 const header = {
   title: "Features - Nanobot",
-  description: "Will add description at a later time.",
+  description: "Get an overview of the Nanobot's features.",
   image: "/",
 };
 
@@ -68,6 +68,32 @@ const features = [
   },
 ];
 
+const MiscFeatures = [
+  {
+    name: "/help",
+    title: "Help & Documentation",
+    description:
+      "Documentation is built-in. Never leave Discord and get everything done within your comfort zone.",
+  },
+  {
+    name: "/guide",
+    title: "Fishing guide",
+    description:
+      "Read the detailed guide on how to fish for sea creatures to earn some Nano.",
+  },
+  {
+    name: "/audit",
+    title: "Audit Log for Nanobot",
+    description: "Find out the overall statistics of the Nano Discord bot.",
+  },
+  {
+    name: "/leaderboard",
+    title: "Leaderboard",
+    description:
+      "Get an overview of the most fished creature in the Discord server.",
+  },
+];
+
 export default function Features() {
   return (
     <Wrapper>
@@ -101,15 +127,19 @@ export default function Features() {
               like the nature of Nano itself.
             </p>
           </div>
-          <Card
-            className="max-w-md"
-            command="/help"
-            title="Help & Documentation"
-            id={-1}
-          >
-            Documentation is built-in. Never leave Discord and get everything
-            done within your comfort zone.
-          </Card>
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+            {MiscFeatures.map((feature, index) => (
+              <Card
+                className="max-w-md"
+                command={feature.name}
+                title={feature.title}
+                id={index}
+                key={feature.name}
+              >
+                {feature.description}
+              </Card>
+            ))}
+          </div>
         </section>
       </main>
     </Wrapper>

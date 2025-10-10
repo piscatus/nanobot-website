@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const header = {
   title: "Nanobot - The Nano-Focused Multi-Purpose Discord Bot",
-  description: "Will add description at a later time.",
+  description: "Properly configure the site layout using layout.tsx",
   image: "/",
 };
 

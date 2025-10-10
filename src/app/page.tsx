@@ -31,9 +31,9 @@ export default function Home() {
               </LinkButton>
               <LinkButton
                 classname="bg-secondary hover:bg-primary"
-                href="/about"
+                href="/join"
               >
-                Find out more
+                Join the community
               </LinkButton>
             </div>
           </div>
