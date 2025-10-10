@@ -41,11 +41,11 @@ const team = [
   },
   {
     name: "current maintainer",
-    refpage: "https://github.com/NG-Hermes",
+    refpage: "https://github.com/piscatus",
     title: "Hermes",
     description:
       "is the maintainer of the bot and website, the one holding it all together",
-    pfp: "https://github.com/NG-Hermes.png",
+    pfp: "https://github.com/piscatus.png",
   },
   {
     name: "founding developer",
@@ -93,11 +93,6 @@ function CardSection({ className }: { className: string }) {
           title={
             <span className="flex items-center gap-2">
               {feature.title}
-              {(feature.title === "tanos" || feature.title === "uxuz") && (
-                <span className="ml-2 px-2 py-0.5 rounded bg-red-500 text-xs font-bold text-white">
-                  quit
-                </span>
-              )}
             </span>
           }
           id={index}
