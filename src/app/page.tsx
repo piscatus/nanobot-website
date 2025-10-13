@@ -22,15 +22,16 @@ export default function Home() {
               The Nano-Focused Multi-Purpose Discord Bot with everything you
               need to use Nano efficiently on your Discord Server.
             </p>
-            <div className="flex gap-2 h-10 text-black font-semibold md:h-11 md:text-lg">
+            <div className="flex gap-2 text-black font-semibold md:text-lg">
               <LinkButton
-                classname="bg-tertiary hover:bg-primary"
+                className="bg-tertiary hover:bg-primary px-6 py-4 sm:px-8 sm:py-5"
                 href="/features"
               >
                 Explore features
               </LinkButton>
+
               <LinkButton
-                classname="bg-secondary hover:bg-primary"
+                className="bg-secondary hover:bg-primary px-6 py-4 sm:px-8 sm:py-5"
                 href="/join"
               >
                 Join the community

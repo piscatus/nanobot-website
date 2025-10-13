@@ -3,17 +3,17 @@ import React from "react";
 
 export default function LinkButton({
   href,
-  classname,
+  className,
   children,
 }: {
   href: string;
-  classname: string;
+  className: string;
   children: React.ReactNode;
 }) {
   return (
     <Link
       href={href}
-      className={`px-4 rounded-lg flex justify-center items-center text-black font-semibold transition duration-300 active:scale-95 ${classname}`}
+      className={`rounded-lg flex justify-center items-center text-black font-semibold transition duration-300 active:scale-95 ${className}`}
     >
       {children}
     </Link>
