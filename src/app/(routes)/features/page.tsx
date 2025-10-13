@@ -50,6 +50,12 @@ const features = [
       "Give Nano to friends and family conveniently through Discord without fees!",
   },
   {
+    name: "/leaderboards",
+    title: "Leaderboards",
+    description:
+      "Get an overview of the most fished creatures in your Discord server!",
+  },
+  {
     name: "/rain",
     title: "Raining",
     description: "Spread Nano to dozens of users within any active channel!",
@@ -70,27 +76,28 @@ const features = [
 
 const MiscFeatures = [
   {
-    name: "/help",
-    title: "Help & Documentation",
+    name: "/audit",
+    title: "Audit",
     description:
-      "Documentation is built-in. Never leave Discord and get everything done within your comfort zone.",
+      "On-Demand bot statistics and verification of your securely held funds on the block lattice.",
+  },
+  {
+    name: "/config",
+    title: "Server Configurations",
+    description:
+      "Server Configurations allow for setting various fishing preferences.",
   },
   {
     name: "/guide",
     title: "Fishing guide",
     description:
-      "Read the detailed guide on how to fish for sea creatures to earn some Nano.",
+      "Read the detailed guide on how to contribute to your server's reserve and fish for sea creatures.",
   },
   {
-    name: "/audit",
-    title: "Audit Log for Nanobot",
-    description: "Find out the overall statistics of the Nano Discord bot.",
-  },
-  {
-    name: "/leaderboard",
-    title: "Leaderboard",
+    name: "/help",
+    title: "Help & Documentation",
     description:
-      "Get an overview of the most fished creature in the Discord server.",
+      "Detailed documentation is viewable with hidden interactions. Never leave the channel, get everything done within your comfort zone.",
   },
 ];
 
@@ -109,8 +116,8 @@ export default function Features() {
                 .
               </h1>
               <p className="text-white text-opacity-70">
-                We don't need to convince you to use Nanobot, it will convince you
-                by itself.
+                We don't need to convince you to use Nanobot, it will convince
+                you by itself.
               </p>
             </div>
             <CardSection className="grid gap-8 md:grid-cols-2 lg:grid-cols-3" />
